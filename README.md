@@ -37,9 +37,7 @@ This module is important because it converts uploaded content into manageable tr
 
 Slide 8 - Flow Diagram I
 
-For audio and video, the pipeline extends the same core architecture. We first extract audio where needed, convert speech into text using speech recognition, detect the language, and then translate the transcript into the selected target language. Depending on the output type, the system can then generate subtitles, translated text, or translated media outputs.
-
-The key design decision here is that even though the input formats are different, they eventually converge into a common text translation pipeline. This makes the architecture more reusable, modular, and scalable.
+For audio and video, the initial ingestion steps are different, but once speech is converted into text using Whisper, both flows converge into a common translation pipeline. This shared pipeline handles language detection, translation, and output generation. Only the input preparation and final rendering differ—for example, audio produces translated speech, while video produces subtitles or dubbed video.
 
 Slide 9 - Flow Diagram II
 
