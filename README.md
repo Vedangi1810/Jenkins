@@ -37,7 +37,7 @@ This module is important because it converts uploaded content into manageable tr
 
 Slide 8 - Flow Diagram I
 
-For audio and video, the initial ingestion steps are different, but once speech is converted into text using Whisper, both flows converge into a common translation pipeline. This shared pipeline handles language detection, translation, and output generation. Only the input preparation and final rendering differ—for example, audio produces translated speech, while video produces subtitles or dubbed video.
+For audio and video, the initial steps are different. For video, FFmpeg is used to extract the audio track, while audio files go directly into processing. After that, both follow the same common pipeline: Whisper converts speech to text, the system detects the language, translates the text, and generates the final output. The difference is only in the final result—audio gives translated speech, while video gives subtitles or dubbed video.
 
 Slide 9 - Flow Diagram II
 
