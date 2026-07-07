@@ -45,15 +45,11 @@ This slide shows the core processing pipeline for text-based inputs such as docu
 
 slide 10 - Database design
 
-PostgreSQL is used to manage the state of the platform. At a minimum, we maintain two core entities: uploaded assets and translation jobs. The assets table stores information about the uploaded content, while the translation jobs table tracks source language, target language, processing status, output file path, and timestamps.
-
-This is important because translation is not just a single synchronous action—it is a workflow that needs to be tracked, processed, retried if required, and downloaded later.
+PostgreSQL stores the platform data such as uploaded assets and translation jobs. Assets keep file details, while translation jobs track source language, target language, status, and output.This makes the system reliable and helps manage translation as a complete process rather than a single action.”
 
 slide 11 - Future Scope
 
-The current design establishes the core offline translation platform, and there are several natural extensions. We can expand support to 22+ Indian languages, add translation memory and custom glossaries for consistency, improve OCR quality for scanned documents, and enable batch processing for larger workloads.
-
-From a product and deployment perspective, we can also add user authentication, mobile access, and enterprise-ready deployment features such as containerization and on-premise scaling.
+In future, BhashaSetu can be extended with support for 22+ Indian languages, better OCR, translation memory, batch processing, user authentication, mobile access, and scalable on-premise deployment.
 
 slide 12 - Thank you
 
