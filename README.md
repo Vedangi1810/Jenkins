@@ -10,7 +10,7 @@ As a team, our focus was not just on translation itself, but on building a pract
 
 Slide 3 - Problem statement
 
-The problem we are solving is that content exists in many formats—PDFs, images, training audio, and videos—but the intended users may not understand the original language. Manual translation in such cases is slow, expensive, and difficult to scale. At the same time, many organizations require an offline and secure solution, especially where internet connectivity is limited and data privacy is critical.
+The problem we are solving is that content can come in many formats—documents, images, audio, and video—but users may not understand the original language. Manual translation is slow, and many organizations also need an offline solution because of privacy and limited internet access.
 
 Slide 4 - Solution Overview
 
