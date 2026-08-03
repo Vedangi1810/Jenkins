@@ -1,3 +1,5 @@
+Software Engineer at HSBC Technology, responsible for cloud infrastructure automation, CI/CD, production support, release management, and operational excellence. I develop automation solutions using Python, Terraform, Ansible, and Jenkins, support GCP infrastructure, manage deployments, troubleshoot production issues, and improve system reliability through monitoring and infrastructure automation.
+
 # Hackathon
 
 Slide 1 - Intro
